@@ -41,6 +41,22 @@ We successfully stress-tested **OpenConnect JR** with **140 threads** under room
   <img src="./assets/stress-result.jpeg" alt="Trendy Image" width="70%">
 </p>
 
+##  Software Stack
+To ensure optimal performance and efficient transaction processing, the following software components are utilized:  
+
+- **OpenConnect** – The primary software driving transaction handling and communication.  
+- **RabbitMQ** – A reliable message broker for efficient data exchange and queuing.  
+- **MySQL Database** – Used for storing and managing transaction records securely.  
+- **Python Scripts** –  
+  - **Simulator Script**: Simulates transaction flows for testing and performance evaluation.  
+  - **Display Script**: Handles the user interface and displays real-time throughput statistics.  
+- **Operating System**:  
+  - **Raspberry Pi OS** – A Linux Debian-based OS optimized for Raspberry Pi hardware, ensuring stability and compatibility.
+## What's in the Box  
+The **OpenConnect JR Kit** includes all the essential components required for seamless operation. The package contains:  
+
+- **OpenConnect JR Device** – The core unit responsible for processing and handling transactions.  
+- **Power Adapter (Charger)** – Ensures stable power supply for uninterrupted performance.  
 ## Prerequisites
 - Raspberry Pi 5 with **OPENCONNECT JR** installed
 - Ethernet cable with internet connection
