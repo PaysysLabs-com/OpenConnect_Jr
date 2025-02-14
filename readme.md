@@ -29,9 +29,16 @@ The **Raspberry Pi 5** is the latest iteration of the **Raspberry Pi** series—
 
 This guide provides detailed instructions on how to perform a **stress test** on **OPENCONNECT JR** running on a **Raspberry Pi 5** using **JMeter**. The test will help evaluate system performance under load and validate its ability to handle high transaction volumes effectively.
 
-### Flow Chart of OPENCONNECT JR:  
+### Flow Chart for OPENCONNECT JR:  
 <p align="center">
   <img src="./assets/flowchart.png" alt="Trendy Image" width="70%">
+</p>
+
+### OpenConnect JR - Performance: 
+We successfully stress-tested **OpenConnect JR** with **140 threads** under room temperature conditions and moderate network speed, achieving an impressive **throughput of 97.5** transactions per second. With a cooler environment, the system has the potential to reach even higher transaction rates, further optimizing its performance.  
+
+<p align="center">
+  <img src="./assets/stress-result.jpeg" alt="Trendy Image" width="70%">
 </p>
 
 ## Prerequisites
