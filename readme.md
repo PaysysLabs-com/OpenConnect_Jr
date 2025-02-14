@@ -1,15 +1,37 @@
-# OPENCONNECT JR on Raspberry Pi 5
+<div style="text-align: center;">
+  <h1>OPENCONNECT JR</h1>
+</div>
+<div style="text-align: center;">
+  <img src="image.png" alt="Trendy Image" style="width: 70%; border-radius: 10px; box-shadow: 3px 3px 10px gray;">  <p style="font-weight: bold; font-size: 18px; margin-top: 10px;">OpenConnect JR</p>
+
+</div>
 
 ## Overview
 **OPENCONNECT** is an advanced transaction processing solution developed by **Paysys Labs**, designed to provide secure, reliable, and high-performance financial transactions. It is engineered to handle high transaction loads efficiently, ensuring seamless payment processing for financial institutions and businesses.
 
 To enhance portability and ease of deployment, we have configured **OPENCONNECT** on a **Raspberry Pi 5**, transforming it into a **plug-and-play solution** that delivers robust transaction processing capabilities in a compact and cost-effective form factor. Through extensive optimizations, our implementation achieves an impressive transaction rate (throughput) of **95+ transactions per second**, making it a powerful yet lightweight processing unit.
 
+## What is Raspberry Pi 5?  
+The **Raspberry Pi 5** is the latest iteration of the **Raspberry Pi** series—an affordable, credit-card-sized single-board computer (SBC) designed for a wide range of applications, including **IoT, embedded systems, and industrial automation**. Developed by the **Raspberry Pi Foundation**, it delivers **significantly improved processing power, faster memory, and enhanced I/O capabilities** compared to its predecessors.  
+<div style="text-align: center;">
+  <img src="new.jpeg" alt="Trendy Image" style="width: 50%; border-radius: 10px; box-shadow: 3px 3px 10px gray;">  <p style="font-weight: bold; font-size: 18px; margin-top: 10px;">Raspberry PI 5</p>
+
+</div>
+
+### Key Features of Raspberry Pi 5:  
+- **Processor**: Quad-core **ARM Cortex-A76** @ **2.4 GHz** (2–3× faster than Raspberry Pi 4)  
+- **Memory**: **4GB / 8GB LPDDR4X RAM** for high-performance multitasking  
+- **Storage**: Supports **microSD cards** and high-speed **NVMe SSDs** via PCIe 2.0  
+- **Connectivity**: **Gigabit Ethernet, Wi-Fi, Bluetooth 5.0**, and **2× USB 3.0** for faster data transfers  
+- **Graphics**: **VideoCore VII GPU** with dual **4K HDMI** output support  
+- **Power Efficiency**: Lower power consumption with active cooling support for sustained performance  
+
+
 This guide provides detailed instructions on how to perform a **stress test** on **OPENCONNECT JR** running on a **Raspberry Pi 5** using **JMeter**. The test will help evaluate system performance under load and validate its ability to handle high transaction volumes effectively.
 
 ## Prerequisites
 - Raspberry Pi 5 with **OPENCONNECT JR** installed
-- Ethernet cable
+- Ethernet cable with internet connection
 - JMeter installed on your machine
 - `.jmx` test plan file (attached in this repository)
 
