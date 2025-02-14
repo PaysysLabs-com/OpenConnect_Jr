@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./product.png" alt="Trendy Image" width="70%">
+  <img src="./assets/product.png" alt="Trendy Image" width="70%">
 </p>
 
 
@@ -15,7 +15,7 @@ To enhance portability and ease of deployment, we have configured **OPENCONNECT*
 ## What is Raspberry Pi 5?  
 The **Raspberry Pi 5** is the latest iteration of the **Raspberry Pi** series—an affordable, credit-card-sized single-board computer (SBC) designed for a wide range of applications, including **IoT, embedded systems, and industrial automation**. Developed by the **Raspberry Pi Foundation**, it delivers **significantly improved processing power, faster memory, and enhanced I/O capabilities** compared to its predecessors.  
 <p align="center">
-  <img src="new.jpeg" alt="Trendy Image" width="70%">
+  <img src="./assets/pi.jpg" alt="Trendy Image" width="70%">
 </p>
 
 ### Key Features of Raspberry Pi 5:  
@@ -28,6 +28,11 @@ The **Raspberry Pi 5** is the latest iteration of the **Raspberry Pi** series—
 
 
 This guide provides detailed instructions on how to perform a **stress test** on **OPENCONNECT JR** running on a **Raspberry Pi 5** using **JMeter**. The test will help evaluate system performance under load and validate its ability to handle high transaction volumes effectively.
+
+### Flow Chart of OPENCONNECT JR:  
+<p align="center">
+  <img src="./assets/flowchart.png" alt="Trendy Image" width="70%">
+</p>
 
 ## Prerequisites
 - Raspberry Pi 5 with **OPENCONNECT JR** installed
