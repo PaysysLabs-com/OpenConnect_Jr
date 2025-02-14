@@ -1,10 +1,11 @@
-<div style="text-align: center;">
+<p align="center">
   <h1>OPENCONNECT JR</h1>
-</div>
-<div style="text-align: center;">
-  <img src="image.png" alt="Trendy Image" style="width: 70%; border-radius: 10px; box-shadow: 3px 3px 10px gray;">  <p style="font-weight: bold; font-size: 18px; margin-top: 10px;">OpenConnect JR</p>
+</p>
 
-</div>
+<p align="center">
+  <img src="./product.png" alt="Trendy Image" width="70%">
+</p>
+
 
 ## Overview
 **OPENCONNECT** is an advanced transaction processing solution developed by **Paysys Labs**, designed to provide secure, reliable, and high-performance financial transactions. It is engineered to handle high transaction loads efficiently, ensuring seamless payment processing for financial institutions and businesses.
@@ -13,10 +14,9 @@ To enhance portability and ease of deployment, we have configured **OPENCONNECT*
 
 ## What is Raspberry Pi 5?  
 The **Raspberry Pi 5** is the latest iteration of the **Raspberry Pi** series—an affordable, credit-card-sized single-board computer (SBC) designed for a wide range of applications, including **IoT, embedded systems, and industrial automation**. Developed by the **Raspberry Pi Foundation**, it delivers **significantly improved processing power, faster memory, and enhanced I/O capabilities** compared to its predecessors.  
-<div style="text-align: center;">
-  <img src="new.jpeg" alt="Trendy Image" style="width: 50%; border-radius: 10px; box-shadow: 3px 3px 10px gray;">  <p style="font-weight: bold; font-size: 18px; margin-top: 10px;">Raspberry PI 5</p>
-
-</div>
+<p align="center">
+  <img src="new.jpeg" alt="Trendy Image" width="70%">
+</p>
 
 ### Key Features of Raspberry Pi 5:  
 - **Processor**: Quad-core **ARM Cortex-A76** @ **2.4 GHz** (2–3× faster than Raspberry Pi 4)  
